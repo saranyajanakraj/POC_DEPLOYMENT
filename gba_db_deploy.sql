@@ -1,1 +1,1 @@
-drop table gba.fleet;
+drop table gba.booking;

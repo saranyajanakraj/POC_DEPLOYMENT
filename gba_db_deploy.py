@@ -36,6 +36,6 @@ for command in sqlCommands[:-1]:
     conn = psycopg2.connect(**params)
     cur = conn.cursor()
     cur.execute(f'{command}')
-    rows = cur.fetchall()
-    print(rows)
+    #rows = cur.fetchall()
+    #print(rows)
     conn.commit()

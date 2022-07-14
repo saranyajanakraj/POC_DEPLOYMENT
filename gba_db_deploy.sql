@@ -1,0 +1,1 @@
+create table gba.booking(id int,name varchar(10),address varchar(40));insert into gba.booking values(1,'maruti','pune');insert into gba.booking values(2,'ford','madurai');insert into gba.booking values(3,'figo','chennai');
